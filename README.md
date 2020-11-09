@@ -1,3 +1,4 @@
 # AppMenuResto
 Projet Développement Mobile
-![screen1.png](/AppMenuResto/screen1.png
+
+### Les screens de l'application sont : "screen1.png" et "screen2.png"
