@@ -33,12 +33,12 @@ class FirstFragment : Fragment() {
  //       }
 
         val foodItems = listOf(
-            FoodItem( "Salade caesar et petits légumes", 8.99, "Delicious"),
-            FoodItem( "Tartare de Saumon", 9.99, "Delicious"),
-            FoodItem( "Carpaccio de boeuf", 9.99, "Delicious"),
-            FoodItem( "Foie gras maison", 11.99, "Delicious"),
-            FoodItem( "Makis saumon,concombre,avocats", 6.99, "Delicious"),
-            FoodItem( "Tomates à la mozzarella", 6.99, "Delicious")
+            FoodItem( "Salade caesar et petits légumes", 8.99, "Salade italo-américaine"),
+            FoodItem( "Tartare de Saumon", 9.99, "Saumon d'Alaska"),
+            FoodItem( "Carpaccio de boeuf", 9.99, "Boeuf des Landes"),
+            FoodItem( "Foie gras maison", 11.99, "Fait par notre chef"),
+            FoodItem( "Makis saumon,concombre,avocats", 6.99, "Makis frais au saumon d'Alaska"),
+            FoodItem( "Tomates à la mozzarella", 6.99, "Tomates du matin et boules de mozza")
         )
         restaurantsRecyclerView.apply {
             layoutManager = LinearLayoutManager(activity)

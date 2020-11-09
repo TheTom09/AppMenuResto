@@ -27,6 +27,8 @@ class RestaurantsAdapter(val foodItems: List<FoodItem>) :
 
         fun bind(foodItem: FoodItem) {
             itemView.textview_first.text = foodItem.name
+            itemView.foodDescription.text = foodItem.description
+            itemView.foodPrice.text = foodItem.price.toString()
         }
     }
 }
